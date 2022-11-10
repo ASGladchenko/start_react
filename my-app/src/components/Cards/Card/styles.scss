@@ -1,0 +1,13 @@
+
+.User-Card{
+  border: 2px solid lightgrey;
+  margin-bottom: 20px;
+  width: 45%;
+  padding: 10px;
+  text-align: center;
+  background-color: silver;
+  @media screen and (max-width: 800px) {
+      width: 95%;
+    margin-bottom: 5px;
+  }
+}
