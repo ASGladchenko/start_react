@@ -1,10 +1,10 @@
-import Cards from "./components/Cards";
+
+import Todos from "./components/Todos";
+
 
 function App() {
   return (
-    <Cards
-
-    />
+      <Todos/>
   );
 }
 
