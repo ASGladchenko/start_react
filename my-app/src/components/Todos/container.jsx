@@ -20,7 +20,7 @@ class Todos extends React.Component {
 
   handleAddTodo = () => {
     const { enterTodo, todos } = this.state;
-
+    if (enterTodo.length < 1) return
     const newTodo = {
       id: Math.round(Math.random() * 100),
       value: enterTodo,
@@ -43,7 +43,7 @@ class Todos extends React.Component {
     })
   }
 
-  handleCheckTodo = todoId => {
+  handleCheckTodo = (e,todoId) => {
     const { todos } = this.state;
     const updateTodos = todos.map(e=>{
       if (todoId === e.id) return {...e, checked: !e.checked}
