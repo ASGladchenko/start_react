@@ -4,10 +4,11 @@ import CardInform from "./Card-Inform";
 
 import './styles.scss'
 
-const Card = ({id, username, name,website, phone,email}) => (
-    <div key={id} className="User-Card">
+const Card = ({id, username, name,website, phone,email,className}) => (
+    <div className={className ? className+' User-Card': 'User-Card'}>
         <CardTitle
             cardTitle={username}
+            id={id}
         />
         <CardInform data={name} text='Name:'/>
         <CardInform data={website} text='User website:'/>

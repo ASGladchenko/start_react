@@ -1,14 +1,10 @@
-import Square from "./components/Square";
 
+
+import Users from "./routes";
 
 function App() {
     return (
-        <>
-            <h1 style={{textAlign:"center", fontSize:'24px'}}>Homework 47. Squares increment / decrement using React</h1>
-            <Square/>
-            <Square/>
-            <Square/>
-        </>
+      <Users/>
     );
 }
 
