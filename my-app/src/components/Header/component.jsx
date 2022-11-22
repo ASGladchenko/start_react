@@ -9,6 +9,7 @@ const Header = () => {
                 <div className="container text-center d-flex ">
                     <span><Link to='/'>Home</Link></span>
                     <span><Link to='/users'>Users</Link></span>
+                    <span><Link to='/post'>Create Post</Link></span>
                 </div>
             </div>
             <Outlet></Outlet>
