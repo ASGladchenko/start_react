@@ -32,7 +32,7 @@ const PostsForm = () => {
             },
         })
             .then((response) => response.json())
-            .then(json => setPost([...posts, json]))
+            .then(post => setPost([...posts, post]))
         values.title = "";
         values.body = '';
         setSubmitting(false);
