@@ -1,0 +1,31 @@
+.d-flex{
+  display: flex;
+  align-items: stretch;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.justify-between{
+  justify-content: space-between;
+}
+form{
+  background-color: #467ed7;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.text-center{
+  text-align: center;
+}
+.post_100{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.post_25{
+  width: 25%;
+}
+.post_empty{
+  font-size: 36px;
+}

@@ -1,10 +1,8 @@
-
-
-import Users from "./routes";
+import Todos from "./components/Todos";
 
 function App() {
     return (
-      <Users/>
+        <Todos/>
     );
 }
 

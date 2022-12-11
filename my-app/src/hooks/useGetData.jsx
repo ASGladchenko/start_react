@@ -6,7 +6,7 @@ const useGetData = url => {
 
 
     useEffect(() => {
-        fetch(url)
+        fetch(url,)
             .then((response) => response.json())
             .then(setData)
             .catch(setError);
